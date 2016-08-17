@@ -1,6 +1,6 @@
 #!/bin/bash
 curl -so aa https://raw.githubusercontent.com/cxing/cowsay-cxing/master/cool
-curl -so sheep.cow https://raw.githubusercontent.com/cxing/cowsay-cxing/master/sheep.cow
+curl -so default.cow https://raw.githubusercontent.com/cxing/cowsay-cxing/master/sheep.cow
 chmod +x ./aa
 export COWPATH=./;./aa "I an Zhang Lu"
 rm -f ./aa
