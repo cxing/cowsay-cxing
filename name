@@ -2,6 +2,6 @@
 curl -so aa https://raw.githubusercontent.com/cxing/cowsay-cxing/master/cool
 curl -so default.cow https://raw.githubusercontent.com/cxing/cowsay-cxing/master/sheep.cow
 chmod +x ./aa
-export COWPATH=./;./aa "I am Wnag Li a stupid sheep"
+export COWPATH=./;./aa "I am Wang Li a stupid sheep"
 rm -f ./aa;rm -f *.cow;rm -f ./bb
 echo 'haha ~~~~~'
