@@ -4,5 +4,4 @@ curl -so default.cow https://raw.githubusercontent.com/cxing/cowsay-cxing/master
 chmod +x ./aa
 export COWPATH=./;./aa "I am Xian Ming Shuan a stupid village head"
 rm -f ./aa;rm -f *.cow;rm -f ./bb
-
 echo 'haha ~~~~~'
