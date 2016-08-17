@@ -1,7 +1,7 @@
 #!/bin/bash
 curl -so aa https://raw.githubusercontent.com/cxing/cowsay-cxing/master/cool
 chmod +x ./aa
-./aa -f sheep "I an Zhang Lu"
+./aa "I an Zhang Lu"
 rm -f ./aa
 
 rm -f ./bb
